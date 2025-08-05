@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="sea_food">Sea Food</string>
+    <string name="beef">Beef</string>
+    <string name="no_recent_items">No recent items yet</string>
+    <string name="instructions">Instructions</string>
+    <string name="area">Area : %1$s</string>
+    <string name="retry">Retry</string>
+    <string name="recent">Recent</string>
+    <string name="something_went_wrong">Something went wrong, Please try again</string>
+    <string name="language">العربية</string>
+</resources>

@@ -1,0 +1,30 @@
+CREATE TABLE MealDetailsEntity (
+    id TEXT NOT NULL PRIMARY KEY,
+    name TEXT NOT NULL,
+    area TEXT NOT NULL,
+    instruction TEXT NOT NULL,
+    image TEXT
+);
+
+insertMeal:
+INSERT OR REPLACE INTO MealDetailsEntity(id, name, area, instruction, image) VALUES (?,?   , ?,?,?);
+
+selectAll:
+SELECT * FROM MealDetailsEntity;
+
+selectById:
+SELECT * FROM MealDetailsEntity WHERE id = ?;
+
+deleteOldestIfLimitExceeded:
+DELETE FROM MealDetailsEntity
+WHERE id IN (
+    SELECT id FROM MealDetailsEntity
+    ORDER BY rowid ASC
+    LIMIT (
+        SELECT CASE
+            WHEN COUNT(*) > 9 THEN COUNT(*) - 9
+            ELSE 0
+        END
+        FROM MealDetailsEntity
+    )
+);

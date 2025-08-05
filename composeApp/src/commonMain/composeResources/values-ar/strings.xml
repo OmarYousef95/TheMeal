@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="sea_food">طعام بحري</string>
+    <string name="beef">لحوم</string>
+    <string name="no_recent_items">لا توجد عناصر شوهدت مؤخراً</string>
+    <string name="instructions">تعليمات</string>
+    <string name="area">المنطقة : %1$s</string>
+    <string name="language">English</string>
+    <string name="recent">مؤخراً</string>
+    <string name="retry">اعد المحاولة</string>
+    <string name="something_went_wrong">حدث خطأ ما, يرجى المحاولة مرة اخرى</string>
+</resources>
