@@ -89,7 +89,7 @@ presentation # UI layer using MVI and Compose Multiplatform
 3. Click **Run ▶️** to launch on simulator or device.
 
 ## 📸 **Screenshots**
-| Android                                              |                                                    |
+| Android                                              | Android                                            |
 |------------------------------------------------------|----------------------------------------------------|
 | ![Android Light English](screenshots/android_en.png) | ![Android Dark Arabic](screenshots/android_ar.png) |
 
