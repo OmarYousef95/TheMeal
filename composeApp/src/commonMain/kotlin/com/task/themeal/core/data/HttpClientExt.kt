@@ -13,7 +13,6 @@ suspend inline fun <reified T> callApi(
         execute()
     } catch (e: Exception) {
         coroutineContext.ensureActive()
-        val error = e.message
         return Result.Error(true)
     }
 

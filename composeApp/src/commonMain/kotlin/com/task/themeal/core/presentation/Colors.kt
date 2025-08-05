@@ -6,7 +6,6 @@ import androidx.compose.runtime.ReadOnlyComposable
 import androidx.compose.runtime.Stable
 import androidx.compose.runtime.compositionLocalOf
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.unit.LayoutDirection
 
 @Stable
 data class CustomColor(
@@ -20,7 +19,6 @@ data class CustomColor(
 )
 
 
-
 val LightPrimaryColor = Color(0xFF1B8354)
 val LightBackgroundColor = Color(0xFFFFFFFF)
 val LightOnBackgroundColor = Color(0xFF1C1C1C)
@@ -32,7 +30,6 @@ val DarkPrimaryColor = Color(0xFF1B8354)
 val DarkBackgroundColor = Color(0xFF0D121C)
 val DarkTabUnselectedColor = Color(0xFFF0F0F0)
 val DarkCardColor = Color(0xFF1F2A37)
-val DarkTabSelectedColor = Color(0xFF90CAF9)
 val DarkTextColor = Color(0xFFFFFFFF)
 val DarkBoarderColor = Color(0xFF6C737F)
 
